@@ -1,0 +1,12 @@
+- 全称: diagnostic messages
+- 作用：print or control [[The kernel ring buffer]]
+	- 查看kernel有没有OOM
+- 常用参数
+	- -T：使用human readable的时间戳
+	- -H：分页，颜色，reltime（local time和delta）
+	- -C：清空ring buffer
+	- -c：print一次后清空
+- 实例：
+	- `dmesg | less`：以分页方式展示ring buffer的内容
+	- `tail -f /var/log/dmesg`：实时监控dmesg的日志输出
+	- `watch "dmeag | tail 20"`：实时监控dmesg的日志输出
