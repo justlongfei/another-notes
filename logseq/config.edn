@@ -9,7 +9,7 @@
  ;; Preferred workflow style.
  ;; Value is either ":now" for NOW/LATER style,
  ;; or ":todo" for TODO/DOING style.
- :preferred-workflow :todo
+ :preferred-workflow :now
 
  ;; The app will ignore those directories or files.
  ;; E.g. "/archived" "/test.md"
@@ -168,6 +168,7 @@
  :feature/enable-journals? false
  :default-home {:page "Wiki Home"}
  :publishing/all-pages-public? true
+ :journal/page-title-format "EEEE, yyyy/MM/dd"
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
