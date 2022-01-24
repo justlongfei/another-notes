@@ -1,0 +1,11 @@
+- CP
+	- https://www.comp.nus.edu.sg/~stevenha/cs3233.html
+	- noi入门视频： [noi online培训](https://www.noi.cn/xw/2020-05-13/715542.shtml)
+	- new c++
+		- c++11: https://www.learncpp.com/cpp-tutorial/b-1-introduction-to-c11/
+		- c++14: https://www.learncpp.com/cpp-tutorial/b-2-introduction-to-c14/
+		- c++17: https://www.learncpp.com/cpp-tutorial/b-3-introduction-to-c17/
+		- c++20: https://www.learncpp.com/cpp-tutorial/introduction-to-c20/
+	- repo:
+		- https://github.com/prasadgujar/CompetitiveProgramming
+-
