@@ -8,4 +8,6 @@
 		- c++20: https://www.learncpp.com/cpp-tutorial/introduction-to-c20/
 	- repo:
 		- https://github.com/prasadgujar/CompetitiveProgramming
--
+	- github repo: [awesome competitive programming](https://github.com/lnishan/awesome-competitive-programming)
+	- [An awesome list for competitive programming!](https://codeforces.com/blog/entry/23054?)
+	-

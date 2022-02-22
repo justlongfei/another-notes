@@ -1,5 +1,13 @@
 - Home of My Personal Wiki
-	- I'm Longfei.
+	- I'm [[Longfei]]. You can find me at:
 		- [blog](https://longfeis.me/)
 		- [github](https://github.com/oops-lgtm)
 		- [twitter](https://twitter.com/longfei1bot)
+	- [[Database]]
+	- [[Programming Language]]
+		- [[golang]]
+		- [[cplusplus]]
+		- [[rustlang]]
+		- [[java]]
+		- [[python]]
+		- [[sql]]
