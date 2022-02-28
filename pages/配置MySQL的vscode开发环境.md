@@ -1,6 +1,6 @@
 - ## 下载MySQL源码
   
-  1. 点击下载 [mysql-boost-8.0.27.tar.gz](https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-boost-8.0.27.tar.gz)
+  1. 点击下载 [mysql-boost-8.0.28.tar.gz](https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-boost-8.0.28.tar.gz)
   
   2. 解压到开发目录下
 - ## 配置vscode
@@ -29,9 +29,12 @@
 - ## 通过cmake配置、编译MySQL
   
   1. ctrl+shift+P，输入CMake: Configure
-  2. ctrl+shift+P，输入CMake: Set Build Target，选择mysqld
-  3. ctrl+shift+P，输入CMake: Build
-  📝 configure遇到的问题记录：
+  2. ctrl+shift+P，输入CMake: Set Build Target，选择mysql
+  3. ctrl+shift+P，输入CMake: Build，编译mysql client
+  4. ctrl+shift+P，输入CMake: Set Build Target，选择mysqld
+  5. ctrl+shift+P，输入CMake: Build，编译mysql server
+- 📒 笔记
+	- configure遇到的问题记录：
 	- Could not find system OpenSSL
 	  	通过brew安装openssl，并通过-DWITH_SSL指定位置
 	- Could not run sw_vers
@@ -43,28 +46,28 @@
 cd bld
 bin/mysqld --initialize-insecure
 ```
-## 启动MySQL
-
-1. ctrl+shift+P，输入CMake: Set Debug Target，选择mysqld
-
-2. ctrl+shift+P，输入CMake: Debug
-
-3. 使用mysql client连接到mysqld
-
- ```bash
- cd bld
- bin/mysql -h127.0.0.1 -P3306 -uroot
- ```
-
- ```mysql
- mysql> select version();
- +--------------+
- | version()    |
- +--------------+
- | 8.0.25-debug |
- +--------------+
- 1 row in set (0.01 sec)
- ```
+- ## 启动MySQL
+  
+  1. ctrl+shift+P，输入CMake: Set Debug Target，选择mysqld
+  
+  2. ctrl+shift+P，输入CMake: Debug
+  
+  3. 使用mysql client连接到mysqld
+  
+   ```bash
+   cd bld
+   bin/mysql -h127.0.0.1 -P3306 -uroot
+   ```
+  
+   ```mysql
+   mysql> select version();
+   +--------------+
+   | version()    |
+   +--------------+
+   | 8.0.28-debug |
+   +--------------+
+   1 row in set (0.01 sec)
+  ```
 - ## 指定命令行参数
 	- 配置《launch.json》，配置完成后通过`f5`启动调试
 	  ```json
