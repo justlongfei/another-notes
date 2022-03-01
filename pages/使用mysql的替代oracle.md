@@ -1,0 +1,4 @@
+- 函数替代
+	- nvl(a, b)  <=> IF((a!='') OR (a)=CONVERT(0,CHAR), a, b)
+	- nvl2(a,b,c) <=> IF((a!='') OR (a)=CONVERT(0,CHAR),  b,  c)
+-
