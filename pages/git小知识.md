@@ -1,0 +1,4 @@
+- #git
+- 解决git status时显示中文路径乱码
+	- `git config --global core.quotepath false`
+-
