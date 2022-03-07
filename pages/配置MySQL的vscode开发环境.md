@@ -81,7 +81,6 @@ bin/mysqld --initialize-insecure
 	              // Resolved by CMake Tools:
 	              "program": "${command:cmake.launchTargetPath}",
 	              "args": [
-	                  "--port", "4001",
 	              ],
 	              "stopAtEntry": false,
 	              "cwd": "${workspaceFolder}",
