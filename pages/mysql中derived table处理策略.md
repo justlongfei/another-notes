@@ -1,0 +1,20 @@
+- #mysql
+- 两种策略：
+	- Merge
+	- Materialize
+- 影响使用策略的因素
+	- hint
+	- optimizer switch
+	- 存在阻止merging的因素
+		- Aggregate function/Window function
+		- Distinct
+		- Group by
+		- Having
+		- Limit
+		- Union/Union All
+		- Select Subquery
+		- UDV Assignments
+		- 仅仅Refer literal value
+-
+- 参考资料
+	- [Optimizing Derived Tables, View References, and Common Table Expressions with Merging or Materialization](https://dev.mysql.com/doc/refman/8.0/en/derived-table-optimization.html)
