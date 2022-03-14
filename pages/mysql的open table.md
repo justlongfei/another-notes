@@ -1,0 +1,2 @@
+- #mysql #Database
+- ![open_tables_for_query.svg](../assets/open_tables_for_query_1647270732652_0.svg)
