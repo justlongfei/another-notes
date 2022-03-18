@@ -1,0 +1,30 @@
+- #tools
+- 更新日期：2022-03-19
+- iterm2
+	- https://iterm2.com/
+	- https://github.com/gnachman/iTerm2
+	- 🌟12.1k
+	- Objective-c
+- alacritty
+	- https://alacritty.org/
+	- https://github.com/alacritty/alacritty
+	- 🌟38k
+	- Rust
+- tabby
+	- https://tabby.sh/
+	- https://github.com/Eugeny/tabby
+	- 🌟30.5
+	- TypeScript
+- hyper
+	- https://hyper.is/
+	- https://github.com/vercel/hyper
+	- 🌟38.1k
+	- TypeScript
+- kitty
+	- https://sw.kovidgoyal.net/kitty/
+	- https://github.com/kovidgoyal/kitty
+	- 🌟14k
+- fig
+	- https://fig.io/
+	- https://github.com/withfig/autocomplete
+	- 🌟12.9k
