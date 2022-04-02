@@ -1,0 +1,6 @@
+- Home of My Personal Notes
+	- I'm [[Longfei]]. You can find me at:
+		- [Homepage](www.crlf1.xyz)
+		- [blog](https://blog.crlf1.xyz/)
+		- [github](https://github.com/crlf1)
+		- [twitter](https://twitter.com/longfei1bot)

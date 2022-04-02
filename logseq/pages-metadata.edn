@@ -64,6 +64,9 @@
  {:block/name "golang",
   :block/created-at 1643210259033,
   :block/updated-at 1643210259847}
+ {:block/name "golang channel",
+  :block/created-at 1648208211513,
+  :block/updated-at 1648212638158}
  {:block/name "golang中的比较运算(包括interface)",
   :block/created-at 1643210062741,
   :block/updated-at 1643212092005}
