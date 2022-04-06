@@ -2,5 +2,5 @@
 	- I'm [[Longfei]]. You can find me at:
 		- [Homepage](https://www.crlf1.xyz)
 		- [blog](https://blog.crlf1.xyz/)
-		- [github](https://github.com/crlf1)
+		- [github](https://github.com/Monkey-D-Longfei)
 		- [twitter](https://twitter.com/longfei1bot)
