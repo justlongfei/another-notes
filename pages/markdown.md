@@ -1,0 +1,15 @@
+- History
+	- 起源
+		- [Markdown](https://daringfireball.net/projects/markdown/) 是 [JOHN GRUBER](https://en.wikipedia.org/wiki/John_Gruber) 于 2004年 发起的一个将文本转换成 HTML 的项目。
+	- 方言
+		- MultiMarkdown
+		- GitHub Flavored Markdown (GFM)
+			- https://github.github.com/gfm/
+		- CommonMark
+			- https://spec.commonmark.org/
+		- and more...
+- 学习
+	- [Markdown Guide](https://www.markdownguide.org/)
+		- 中文版：[Markdown中文指南](https://www.markdown.xyz/)
+	- [混乱的 Markdown 世界](https://yihui.org/cn/2017/08/markdown-flavors/)
+	-
