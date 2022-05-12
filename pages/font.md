@@ -1,0 +1,8 @@
+- 收集好看的字体 ，排名不分先后
+	- Recursive Mono & Sans
+		- https://recursive.design/
+		- https://github.com/arrowtype/recursive/
+	- JetBrain Mono
+	- Fira Code
+	- LXGW WenKai
+	-
